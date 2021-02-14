@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#back{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(166, 186, 248);
+}
+#back h1{
+    font-size: 200px;
+    font-family: 'product sans';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+#back button{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 50px;
+    background-color:#ffce1d;
+    font-family: 'product sans';
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow:  0px 6px 20px #1717175d;
+    
+}
+button:active {
+    opacity: .6;
+}
